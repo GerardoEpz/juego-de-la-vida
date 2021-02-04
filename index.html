@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de la vida</title>
+    <link rel="stylesheet" href="juego.css">
+</head>
+<body>
+    
+    <div class="results">
+        <h1>Datos</h1>
+        <hr>
+        <div class="results-data">
+            <h2>Número de generaciones: </h2>&nbsp<h2 id="generation"></h2>
+        </div>
+        <div class="results-data">
+            <h2>Población de bacterias: </h2>&nbsp<h2 id="population"></h2>
+        </div>
+        <hr>
+        <button class="button" id="start">Iniciar</button>
+        <button class="button" id="stop">Pausar</button>
+        <button class="button" id="random">Aleatorio</button>
+        <button class="button" id="clean">Limpiar</button>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="juego.js"></script>
+</body>
+</html>

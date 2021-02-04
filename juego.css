@@ -1,0 +1,40 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    height: 30vh;
+    display: inline-flex;
+    margin: 30px;
+    background-color: #1B1750;
+}
+
+#canvas{
+    margin: auto 0 auto 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: gray;
+}
+
+.results{
+    color: #E4E70C;
+    margin: auto -2 auto -100px; 
+}
+
+.results-data > h2{
+    display: flex;
+}
+
+.button{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    width: 120px;
+    margin: 0 auto 20px auto;
+    border: 0px;
+    border-radius: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor:pointer;
+}
+
+.button:hover{
+    background-color:grey;
+}
